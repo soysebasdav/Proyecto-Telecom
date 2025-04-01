@@ -25,15 +25,25 @@ Desarrollar un modelo de clasificación binaria capaz de identificar clientes co
 ## 📁 Estructura del Proyecto
 
 proyecto_churn/
+
 │
+
 ├── data/             → Dataset original y limpio
+
 ├── notebooks/        → Jupyter Notebooks de análisis, modelado y pruebas
+
 ├── src/              → Scripts reutilizables y funciones auxiliares
+
 ├── visuals/          → Gráficos generados para análisis y reportes
+
 ├── report/           → Reportes técnicos y presentaciones
+
 ├── requirements.txt  → Librerías necesarias para ejecutar el proyecto
+
 ├── .gitignore        → Archivos excluidos del control de versiones
+
 └── README.md         → Este documento
+
 
 ## 🚀 ¿Cómo Ejecutar el Proyecto?
 
@@ -76,6 +86,9 @@ Si prefieres usar todas las librerías instaladas durante el desarrollo (incluye
 Para instalar el entorno mínimo:
 bash
 pip install -r requirements.txt
+
+Para instalar el entorno completo (opcional):
+pip install -r requirements_full.txt
 
 
 ## Resultados Esperados
