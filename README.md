@@ -4,6 +4,16 @@ Este proyecto busca predecir la probabilidad de que un cliente abandone los serv
 
 ---
 
+## 📂 Acerca del Dataset
+
+Este proyecto utiliza el dataset Telco Customer Churn, creado por IBM para fines educativos y de demostración.
+Está disponible públicamente en Kaggle.
+
+Cada fila representa a un cliente de una empresa de telecomunicaciones, incluyendo información demográfica, servicios contratados, datos de facturación y si el cliente canceló el servicio (Churn).
+El objetivo es predecir la probabilidad de churn con base en estas variables.
+
+---
+
 ## 🎯 Objetivo
 
 Desarrollar un modelo de clasificación binaria capaz de identificar clientes con alta probabilidad de hacer churn (cancelar servicios), con el fin de permitir acciones preventivas de retención.
