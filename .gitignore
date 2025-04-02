@@ -29,7 +29,7 @@ Thumbs.db
 # ==========================================
 # Archivos de datos y salidas
 # ==========================================
-*.csv
+# Excluir solo si no están dentro de las carpetas `data` o `report`
 *.tsv
 *.xlsx
 *.xls
@@ -42,6 +42,10 @@ Thumbs.db
 *.zip
 *.rar
 *.tar.gz
+
+# Para evitar ignorar los archivos .csv dentro de las carpetas `data` y `report`
+!data/*.csv
+!report/*.csv
 
 # ==========================================
 # Modelos y outputs
